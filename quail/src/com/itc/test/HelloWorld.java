@@ -12,6 +12,7 @@ public class HelloWorld {
 
 	@RequestMapping(value={"/","/logon"})
 	public ModelAndView sayHello(){
+		
 		ModelAndView model = new ModelAndView("addSuccess");
 		return model;
 	}
